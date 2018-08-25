@@ -1,0 +1,10 @@
+
+class Person {
+	constructor(name = 'Anonymous',age = 0) {
+		this.name = name;
+		this.age = age;
+	}
+}
+
+const me = new Person('mike',47);
+console.log(me);
